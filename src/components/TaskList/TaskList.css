@@ -1,0 +1,15 @@
+.task-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.task-list__empty {
+  padding: 30px;
+  text-align: center;
+  border-radius: 12px;
+  background: #ffffff;
+  color: #888888;
+  font-size: 16px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+}
