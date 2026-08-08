@@ -1,11 +1,19 @@
-/* .app {
+.app {
+  width: 100%;
   min-height: 100vh;
   padding: 30px 20px;
-  background: #f5f6fa;
+  background: #ffffff;
+  color: #222222;
   transition: 0.3s ease;
-} */
+}
+
+.app.dark {
+  background: #18181b;
+  color: #ffffff;
+}
 
 .app__content {
+  width: 100%;
   max-width: 800px;
   margin: 0 auto;
 }
